@@ -1,3 +1,8 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 html{
 margin:0%;
 padding:0%;
@@ -116,3 +121,148 @@ color: white;
 
 }
 
+.testimonial{
+background-color: #161919;
+width:100%;
+height:600px;
+}
+
+hr.solid{
+border: 2px solid blue;
+width:25%;
+float: left;
+}
+
+.row{
+    box-sizing: border-box;
+}
+
+.values{
+background-color: #27272E;
+width: 100%;
+height: 800px;
+margin-top: -20px;
+}
+
+.values>h3{
+ padding-left:100px;
+ padding-top: 50px;
+ color:#C75C6F;
+ font-size: 20px;
+ line-height: 30px;
+ font-weight: 500;
+ font-style: normal;
+}
+
+.values>h2{
+color:#D3D3D9;
+font-style: normal;
+font-size: 56px;
+line-height: 67px;
+padding-left: 100px;
+}
+
+.values>p{
+color:#D3D3D9;
+margin-left:100px;
+padding-top:-50px;
+}
+
+.row1{
+    margin-left:100px;
+    display:flex;
+    box-sizing: border-box;
+}
+.about-quality .s1-number{
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: webkit-linear-gradient(left, #565677 0%, rgba(39, 39, 46, 0) 70.31%);
+    background: linear-gradient(90deg,#565677 0%, rgba(39, 39, 46, 0) 70.31%);
+    color: white;
+    transition:var(--transition);
+    font-size: 36px;
+    
+}
+
+.stories{
+    box-sizing: border-box;
+    background-color: #212121;
+    width: 100%;
+    height:500px;
+    }
+   
+    .story1{
+    display:flex;
+    box-sizing: border-box;
+    width:100%;
+    }
+
+
+    .row2 active{
+        display: flex;
+    }
+
+.stories>h5{
+padding-top: 100px;
+text-align: center;
+color:#9E2F3A;
+}
+
+.stories>h2{
+    text-align: center;
+}
+
+.post-content>h3{
+margin-left: 15px;
+margin-top: 60px;
+
+}
+
+.post-content>p{
+margin-top: 30px;
+margin-left: 15px;
+}
+
+.post-content>a{
+    margin-left: 15px;
+}
+
+.vertical{
+    border: 2px solid white;
+}
+
+.img1{
+ margin-left: 100px;
+ margin-top: 50px;
+ border-radius: 25px;
+}
+
+.contact{
+    width:100%;
+    height:400px;
+    background-color: #27272E;
+
+}
+
+
+
+.circle{
+margin-top:100px;
+width: 300px;
+height:300px;
+border-radius: 50%;
+background-color:#2D2D57;
+margin: 0 auto;
+}
+
+.circle>h3,h4{
+padding-top: 80px;
+font-style: normal;
+font-weight:500px;
+font-size: 20px;
+color:#ffdc60;
+line-height: 30px;
+}
